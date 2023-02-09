@@ -1,0 +1,251 @@
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Raleway");
+@import url("components/link.css");
+
+
+
+
+body{
+  font-family: "Lora", serif;
+  margin: 0;
+}
+
+h1{
+
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+h2{
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  margin: -6px auto;
+  text-align: center;
+  height: 100%;
+  padding: 04%;
+}
+
+h3{
+  font-size: "Raleway", sans-serif ;
+}
+
+h4{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: "Lora", serif;
+  margin: 0;
+}
+
+i {
+  font-size: 50px;
+  margin: auto;
+}
+
+.modele{
+  text-align: center;
+  margin: 50px;
+}
+
+.plus{
+  background-color: black;
+  border-radius: 80%;
+  color: white;
+  display: flex;
+
+}
+
+.fa-facebook:before {
+  color: darkblue;
+  margin: 70px;
+}
+
+.fa-instagram:before {
+  color: black;
+  margin: 70px;
+}
+.fa-twitter:before {
+  color: lightblue;
+  margin: 70px;
+}
+.fa-youtube:before {
+  color: darkred;
+  margin: 70px;
+}
+.
+
+.logo{
+  width: 918px;
+}
+
+a{
+  font-size: 30px;
+  margin: -6px auto;
+  text-align: center;
+  height: 100%;
+  padding: 4%;
+  width: 241px;
+
+}
+
+
+.logo{
+  margin: 20px ;
+  width: 600px;
+}
+
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social>a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social>a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+
+
+ /* styling navlist */
+    #navlist {
+        background-color: black;
+        width: 100%;
+        display: flex;
+    }
+
+    /* styling navlist anchor element */
+    #navlist a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .navlist-right{
+        float:right;
+    }
+
+    /* hover effect of navlist anchor element */
+    #navlist a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+    }
+
+    .search{
+        float:right;
+        margin:7px;
+    }
+
+    .search button{
+        background-color: black;
+        color: #f2f2f2;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+.bars {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+
+}
